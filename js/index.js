@@ -99,3 +99,11 @@ updateStatus();
 setInterval(updateStatus, 500);
 
 switchMode();
+
+if ('wakeLock' in navigator) {
+    try {
+        navigator.wakeLock.request();
+    } catch(err) {
+        console.error(err);
+    }
+}
