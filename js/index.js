@@ -2,13 +2,13 @@ let clicks = 0;
 
 document.body.onclick = function() {
     if (clicks == 0) {
-        setTimeout(processSwap, 2000);
+        setTimeout(processSwap, 1000);
     }
     clicks += 1;
     document.getElementById('middle').innerHTML = 'Click exactly twice for clear, anything else for not clear (' + clicks + ')';
 }
 
-setInterval(updateStatus, 1000);
+setInterval(updateStatus, 500);
 
 async function processSwap() {
     let data;
