@@ -3,18 +3,33 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-#center {
+button {
+  border: none;
+  border-radius: 5px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+}
+
+.center {
     margin: auto;
+    margin-bottom: 10px;
     width: 95%;
     height: 95%;
     padding: 10px;
     text-align: center;
     background-color: #fff;
     border-radius: 5px;
-  }
+}
 
 .statustext {
-    font-size: 15vh;
+    font-size: 50pt;
+    padding: 0px;
+    margin: 0px;
 }
 
 .notclear {
@@ -28,6 +43,17 @@ body {
 #middle {
     padding-top: 10vh;
     padding-bottom: 30vh;
-    font-weight: bolder;
-    font-size: 20px;
+    font-size: 20pt;
+}
+
+#message {
+    font-size: 20pt;
+}
+
+#messagearea {
+    margin-bottom: 10%;
+}
+
+#submit {
+    margin-bottom: 5px;
 }

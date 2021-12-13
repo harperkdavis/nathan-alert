@@ -19,11 +19,23 @@
     </head>
 
     <body>
-        <div id="center">
-            <h1>Nathan Alerter</h1>
+        <div id="title" class="center">
+            <h1 id="message">"none"</h1>
+            <p id="messageTime">Last updated: loading...</p>
+        </div>
+        <div id="center" class="center">
             <h2>Status:</h2>
             <h1 class="statustext notclear" id="status">LOADING...</h1>
+            <p id="statusTime">Last updated: loading...</p>
             <p id="middle">Click exactly twice for clear, anything else for not clear</p>
+        </div>
+        <div id="editor" class="center">
+            <h2>Set a message</h2>
+            <textarea id="messagearea" cols="50" rows="10"></textarea>
+            <button id="submit">Submit</button>
+        </div>
+        <div class="center">
+            <button id="editmessage">Edit Mode</button>
         </div>
         <script src="js/index.js"></script>
     </body>
