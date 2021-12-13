@@ -42,8 +42,7 @@ button {
   
 #middle {
     padding-top: 10vh;
-    padding-bottom: 30vh;
-    font-size: 20pt;
+    padding-bottom: 25vh;
 }
 
 #message {
@@ -51,7 +50,7 @@ button {
 }
 
 #messagearea {
-    margin-bottom: 10%;
+    margin-bottom: 5px;
 }
 
 #submit {
