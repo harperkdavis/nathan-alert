@@ -1,0 +1,33 @@
+body {
+    background-color: #eee;
+    font-family: Helvetica, sans-serif;
+}
+
+#center {
+    margin: auto;
+    width: 95%;
+    height: 95%;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+.statustext {
+    font-size: 15vh;
+}
+
+.notclear {
+    color: rgb(143, 40, 40);
+}
+
+.clear {
+    color: rgb(89, 201, 89);
+}
+  
+#middle {
+    padding-top: 10vh;
+    padding-bottom: 30vh;
+    font-weight: bolder;
+    font-size: 20px;
+}
