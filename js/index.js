@@ -9,6 +9,14 @@ document.getElementById("center").onclick = function() {
     document.getElementById('middle').innerHTML = 'Click exactly twice for clear, anything else for not clear (' + clicks + ')';
 }
 
+document.getElementById("title").onclick = function() {
+    if (clicks == 0) {
+        setTimeout(processSwap, 1000);
+    }
+    clicks += 1;
+    document.getElementById('middle').innerHTML = 'Click exactly twice for clear, anything else for not clear (' + clicks + ')';
+}
+
 document.getElementById("editmessage").onclick = function() {
     switchMode();
 }
